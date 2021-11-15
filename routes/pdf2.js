@@ -1,8 +1,6 @@
 
 
 
-var ReactDOMServer = require('react-dom/server');
-var React= require('react');
 const router =require("express").Router();
 const pdfCtrol= require('../controllers/pdfController');
 const { sendEmail } = require('../helpers/emailSender');
