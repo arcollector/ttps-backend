@@ -15,7 +15,7 @@ router.get("/informe", async(req,res)=>{
     let paciente=req.headers.paciente;
     console.log(usuario);
     console.log(paciente);
-    res.header("Access-Control-Allow-Origin",req.headers.origin);
+    //res.header("Access-Control-Allow-Origin",req.headers.origin);
     console.log('Entre al informe pdf!');
 
     
